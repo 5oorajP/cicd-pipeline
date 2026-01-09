@@ -1,11 +1,29 @@
-import React from 'react'
+import React from "react";
 
-const App = () => {
+function App() {
   return (
-    <div>
-     <h1>This is from jenkins pipeline v6</h1>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+        backgroundColor: "#f0f4ff"
+      }}
+    >
+      <h1
+        style={{
+          color: "#2563eb", // Ethnotech-style blue
+          fontSize: "50px",
+          fontWeight: "700",
+          fontFamily: "Segoe UI, Arial, sans-serif",
+          letterSpacing: "1.2px"
+        }}
+      >
+        Welcome To Ethnotech
+      </h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
